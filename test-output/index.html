@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Mayaa\AppData\Local\Temp\testng-eclipse--1379745247\testng-customsuite.xml</span>
+                    <span>C:\Users\Mayaa\AppData\Local\Temp\testng-eclipse--679014927\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="main_class" class="method navigator-link" hash-for-method="SignUpTest">SignUpTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="main_class" class="method navigator-link" hash-for-method="ShippingDetails">ShippingDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -118,7 +118,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="main_class" class="method navigator-link" hash-for-method="AddItems">AddItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="main_class" class="method navigator-link" hash-for-method="CheckOutProcess">CheckOutProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="main_class" class="method navigator-link" hash-for-method="SignInTest">SignInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="main_class" class="method navigator-link" hash-for-method="SignUpTest">SignUpTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -141,17 +156,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SignUpTest">
-                  </a> <!-- SignUpTest -->
-                  <span class="method-name">SignUpTest</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument
+                  <a name="ShippingDetails">
+                  </a> <!-- ShippingDetails -->
+                  <span class="method-name">ShippingDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;OCYF632&quot;]&quot;}
   (Session info: MicrosoftEdge=111.0.1661.54)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [0631671a862ce003591185c97e50c263, get {url=href=&quot;https://magento.softwaretestingboard.com/customer/account/logout/}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, ms:edgeOptions: {debuggerAddress: localhost:51722}, msedge: {msedgedriverVersion: 111.0.1661.62 (0a8f453929e6..., userDataDir: C:\Users\Mayaa\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51722/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0631671a862ce003591185c97e50c263
+Command: [2967e888719a602d81558031970430b6, findElement {using=xpath, value=//*[@id=&quot;OCYF632&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, ms:edgeOptions: {debuggerAddress: localhost:51798}, msedge: {msedgedriverVersion: 111.0.1661.62 (0a8f453929e6..., userDataDir: C:\Users\Mayaa\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51798/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2967e888719a602d81558031970430b6
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -162,8 +178,11 @@ Session ID: 0631671a862ce003591185c97e50c263
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:295)
-	at main_class.SignUpTest(main_class.java:45)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at main_class.ShippingDetails(main_class.java:195)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -204,9 +223,30 @@ Session ID: 0631671a862ce003591185c97e50c263
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="AddItems">
+                  </a> <!-- AddItems -->
+                  <span class="method-name">AddItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckOutProcess">
+                  </a> <!-- CheckOutProcess -->
+                  <span class="method-name">CheckOutProcess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="SignInTest">
                   </a> <!-- SignInTest -->
                   <span class="method-name">SignInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpTest">
+                  </a> <!-- SignUpTest -->
+                  <span class="method-name">SignUpTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -214,7 +254,7 @@ Session ID: 0631671a862ce003591185c97e50c263
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Mayaa\AppData\Local\Temp\testng-eclipse--1379745247\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Mayaa\AppData\Local\Temp\testng-eclipse--679014927\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -263,20 +303,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SignUpTest')
+data.setCell(0, 1, 'AddItems')
 data.setCell(0, 2, 'main_class')
-data.setCell(0, 3, 8573);
+data.setCell(0, 3, 26431);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'SignInTest')
+data.setCell(1, 1, 'SignUpTest')
 data.setCell(1, 2, 'main_class')
-data.setCell(1, 3, 7279);
+data.setCell(1, 3, 11438);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SignInTest')
+data.setCell(2, 2, 'main_class')
+data.setCell(2, 3, 6340);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CheckOutProcess')
+data.setCell(3, 2, 'main_class')
+data.setCell(3, 3, 4559);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ShippingDetails')
+data.setCell(4, 2, 'main_class')
+data.setCell(4, 3, 3049);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -308,18 +360,30 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">SignUpTest</span>
-                <span class="method-start">2445 ms</span>
+                <span class="method-start">2831 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SignInTest</span>
-                <span class="method-start">11037 ms</span>
+                <span class="method-start">14273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddItems</span>
+                <span class="method-start">20618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckOutProcess</span>
+                <span class="method-start">47051 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ShippingDetails</span>
+                <span class="method-start">51612 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">at</span>
-                <span class="method-start">18320 ms</span>
+                <span class="method-start">54668 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
