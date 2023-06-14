@@ -5,9 +5,8 @@
     <classes>
       <class name="main_class">
         <methods>
-          <include name="ShippingDetails"/>
           <include name="bf"/>
-          <include name="at"/>
+          <include name="CheckThePrice"/>
         </methods>
       </class> <!-- main_class -->
     </classes>
